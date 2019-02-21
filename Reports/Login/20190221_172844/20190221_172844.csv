@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Firefox 65.0,,2019-02-21 17:28:48,2019-02-21 17:30:16,1m - 28.040s,PASSED
+,,,,,,
+Test Cases/TC1_Login,Firefox 65.0,,2019-02-21 17:28:48,2019-02-21 17:29:07,18.747s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-02-21 17:28:49,2019-02-21 17:28:57,7.436s,PASSED
+"navigateToUrl(""http://testingerp.epizy.com/?i=1"")",Firefox 65.0,,2019-02-21 17:28:57,2019-02-21 17:29:02,5.328s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_IIHT ERP/input_Username _username""), username)",Firefox 65.0,,2019-02-21 17:29:02,2019-02-21 17:29:02,0.329s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_IIHT ERP/input_Password _password""), password)",Firefox 65.0,,2019-02-21 17:29:02,2019-02-21 17:29:03,0.199s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_IIHT ERP/button_Login""))",Firefox 65.0,,2019-02-21 17:29:03,2019-02-21 17:29:03,0.397s,PASSED
+delay(2),Firefox 65.0,,2019-02-21 17:29:03,2019-02-21 17:29:05,2.057s,PASSED
+"if (verifyElementText(findTestObject(""Login/Page_IIHT ERP/Username""), ""This field is required."", OPTIONAL))",Firefox 65.0,,2019-02-21 17:29:05,2019-02-21 17:29:07,1.689s,PASSED
+"else if (verifyElementText(findTestObject(""Login/Page_IIHT ERP/Password""), ""This field is required."", OPTIONAL))",Firefox 65.0,,2019-02-21 17:29:07,2019-02-21 17:29:07,0.001s,PASSED
+"else if (verifyElementText(findTestObject(""Login/Page_IIHT ERP/Incorrectidpass""), ""Please enter correct username and password"", OPTIONAL))",Firefox 65.0,,2019-02-21 17:29:07,2019-02-21 17:29:07,0.011s,PASSED
+else,Firefox 65.0,,2019-02-21 17:29:07,2019-02-21 17:29:07,0.047s,PASSED
+,,,,,,
+Test Cases/TC1_Login,Firefox 65.0,,2019-02-21 17:29:07,2019-02-21 17:29:25,18.061s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-02-21 17:29:07,2019-02-21 17:29:15,8.278s,PASSED
+"navigateToUrl(""http://testingerp.epizy.com/?i=1"")",Firefox 65.0,,2019-02-21 17:29:15,2019-02-21 17:29:22,6.395s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_IIHT ERP/input_Username _username""), username)",Firefox 65.0,,2019-02-21 17:29:22,2019-02-21 17:29:22,0.199s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_IIHT ERP/input_Password _password""), password)",Firefox 65.0,,2019-02-21 17:29:22,2019-02-21 17:29:22,0.107s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_IIHT ERP/button_Login""))",Firefox 65.0,,2019-02-21 17:29:22,2019-02-21 17:29:22,0.367s,PASSED
+delay(2),Firefox 65.0,,2019-02-21 17:29:22,2019-02-21 17:29:24,2.002s,PASSED
+"if (verifyElementText(findTestObject(""Login/Page_IIHT ERP/Username""), ""This field is required."", OPTIONAL))",Firefox 65.0,,2019-02-21 17:29:24,2019-02-21 17:29:25,0.656s,PASSED
+"else if (verifyElementText(findTestObject(""Login/Page_IIHT ERP/Password""), ""This field is required."", OPTIONAL))",Firefox 65.0,,2019-02-21 17:29:25,2019-02-21 17:29:25,0.003s,PASSED
+,,,,,,
+Test Cases/TC1_Login,Firefox 65.0,,2019-02-21 17:29:25,2019-02-21 17:29:40,14.978s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-02-21 17:29:25,2019-02-21 17:29:32,7.196s,PASSED
+"navigateToUrl(""http://testingerp.epizy.com/?i=1"")",Firefox 65.0,,2019-02-21 17:29:32,2019-02-21 17:29:37,5.080s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_IIHT ERP/input_Username _username""), username)",Firefox 65.0,,2019-02-21 17:29:37,2019-02-21 17:29:37,0.158s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_IIHT ERP/input_Password _password""), password)",Firefox 65.0,,2019-02-21 17:29:37,2019-02-21 17:29:38,0.120s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_IIHT ERP/button_Login""))",Firefox 65.0,,2019-02-21 17:29:38,2019-02-21 17:29:38,0.320s,PASSED
+delay(2),Firefox 65.0,,2019-02-21 17:29:38,2019-02-21 17:29:40,2.002s,PASSED
+"if (verifyElementText(findTestObject(""Login/Page_IIHT ERP/Username""), ""This field is required."", OPTIONAL))",Firefox 65.0,,2019-02-21 17:29:40,2019-02-21 17:29:40,0.061s,PASSED
+,,,,,,
+Test Cases/TC1_Login,Firefox 65.0,,2019-02-21 17:29:40,2019-02-21 17:29:57,16.841s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-02-21 17:29:40,2019-02-21 17:29:47,7.017s,PASSED
+"navigateToUrl(""http://testingerp.epizy.com/?i=1"")",Firefox 65.0,,2019-02-21 17:29:47,2019-02-21 17:29:53,5.772s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_IIHT ERP/input_Username _username""), username)",Firefox 65.0,,2019-02-21 17:29:53,2019-02-21 17:29:53,0.233s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_IIHT ERP/input_Password _password""), password)",Firefox 65.0,,2019-02-21 17:29:53,2019-02-21 17:29:53,0.116s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_IIHT ERP/button_Login""))",Firefox 65.0,,2019-02-21 17:29:53,2019-02-21 17:29:53,0.309s,PASSED
+delay(2),Firefox 65.0,,2019-02-21 17:29:53,2019-02-21 17:29:55,2.001s,PASSED
+"if (verifyElementText(findTestObject(""Login/Page_IIHT ERP/Username""), ""This field is required."", OPTIONAL))",Firefox 65.0,,2019-02-21 17:29:55,2019-02-21 17:29:57,1.362s,PASSED
+"else if (verifyElementText(findTestObject(""Login/Page_IIHT ERP/Password""), ""This field is required."", OPTIONAL))",Firefox 65.0,,2019-02-21 17:29:57,2019-02-21 17:29:57,0.001s,PASSED
+"else if (verifyElementText(findTestObject(""Login/Page_IIHT ERP/Incorrectidpass""), ""Please enter correct username and password"", OPTIONAL))",Firefox 65.0,,2019-02-21 17:29:57,2019-02-21 17:29:57,0.001s,PASSED
+else,Firefox 65.0,,2019-02-21 17:29:57,2019-02-21 17:29:57,0.002s,PASSED
+,,,,,,
+Test Cases/TC1_Login,Firefox 65.0,,2019-02-21 17:29:57,2019-02-21 17:30:14,17.123s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-02-21 17:29:57,2019-02-21 17:30:04,7.685s,PASSED
+"navigateToUrl(""http://testingerp.epizy.com/?i=1"")",Firefox 65.0,,2019-02-21 17:30:05,2019-02-21 17:30:10,5.344s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_IIHT ERP/input_Username _username""), username)",Firefox 65.0,,2019-02-21 17:30:10,2019-02-21 17:30:10,0.192s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_IIHT ERP/input_Password _password""), password)",Firefox 65.0,,2019-02-21 17:30:10,2019-02-21 17:30:10,0.105s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_IIHT ERP/button_Login""))",Firefox 65.0,,2019-02-21 17:30:10,2019-02-21 17:30:10,0.305s,PASSED
+delay(2),Firefox 65.0,,2019-02-21 17:30:10,2019-02-21 17:30:12,2.001s,PASSED
+"if (verifyElementText(findTestObject(""Login/Page_IIHT ERP/Username""), ""This field is required."", OPTIONAL))",Firefox 65.0,,2019-02-21 17:30:12,2019-02-21 17:30:14,1.424s,PASSED
+"else if (verifyElementText(findTestObject(""Login/Page_IIHT ERP/Password""), ""This field is required."", OPTIONAL))",Firefox 65.0,,2019-02-21 17:30:14,2019-02-21 17:30:14,0.001s,PASSED
+"else if (verifyElementText(findTestObject(""Login/Page_IIHT ERP/Incorrectidpass""), ""Please enter correct username and password"", OPTIONAL))",Firefox 65.0,,2019-02-21 17:30:14,2019-02-21 17:30:14,0.000s,PASSED
+else,Firefox 65.0,,2019-02-21 17:30:14,2019-02-21 17:30:14,0.002s,PASSED
